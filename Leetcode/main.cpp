@@ -27,8 +27,8 @@
 int main(int argc, const char * argv[])
 {
     string s = "+---...2x+--x--+x-+-x2...---+";
-    //reverseWords(s);
-   // cout << s << endl;
+    reverseWords(s);
+    cout << s << endl;
     return 0;
 }
 
