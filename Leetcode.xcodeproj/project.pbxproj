@@ -28,6 +28,22 @@
 		B0ABA54919F821AF00BB596D /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ABA54C19F821AF00BB596D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B0ABA54E19F821AF00BB596D /* Leetcode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Leetcode.1; sourceTree = "<group>"; };
+		B0ABA55919F8222D00BB596D /* myarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myarray.h; sourceTree = "<group>"; };
+		B0ABA55B19F974FA00BB596D /* mylinklist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mylinklist.h; sourceTree = "<group>"; };
+		B0ABA55C19F9D14600BB596D /* LRU Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LRU Cache.h"; sourceTree = "<group>"; };
+		B0ABA57219FC9E9800BB596D /* mystring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mystring.h; sourceTree = "<group>"; };
+		B0BC90311A00612C001045F0 /* mystack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mystack.h; sourceTree = "<group>"; };
+		B0BC90321A0084BD001045F0 /* mytree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mytree.h; sourceTree = "<group>"; };
+		B0BC90331A019BF1001045F0 /* mysort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mysort.h; sourceTree = "<group>"; };
+		B0BC90341A02026F001045F0 /* mysearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mysearch.h; sourceTree = "<group>"; };
+		B0BC90351A02A47F001045F0 /* mybruteforce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mybruteforce.h; sourceTree = "<group>"; };
+		B0BC90361A02BA53001045F0 /* mybsf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mybsf.h; sourceTree = "<group>"; };
+		B0BC90371A0492B5001045F0 /* mydfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mydfs.h; sourceTree = "<group>"; };
+		B0BC90381A058361001045F0 /* mybisplit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mybisplit.h; sourceTree = "<group>"; };
+		B0BC90391A072BEF001045F0 /* mygreedy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mygreedy.h; sourceTree = "<group>"; };
+		B0BC903A1A073980001045F0 /* mydp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mydp.h; sourceTree = "<group>"; };
+		B0BC903B1A0835A5001045F0 /* mygraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mygraph.h; sourceTree = "<group>"; };
+		B0BC903C1A084131001045F0 /* mydetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mydetail.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,22 @@
 			isa = PBXGroup;
 			children = (
 				B0ABA54C19F821AF00BB596D /* main.cpp */,
+				B0BC90381A058361001045F0 /* mybisplit.h */,
+				B0ABA55919F8222D00BB596D /* myarray.h */,
+				B0ABA55B19F974FA00BB596D /* mylinklist.h */,
+				B0BC90391A072BEF001045F0 /* mygreedy.h */,
+				B0BC903A1A073980001045F0 /* mydp.h */,
+				B0BC903B1A0835A5001045F0 /* mygraph.h */,
+				B0BC903C1A084131001045F0 /* mydetail.h */,
+				B0ABA55C19F9D14600BB596D /* LRU Cache.h */,
+				B0BC90361A02BA53001045F0 /* mybsf.h */,
+				B0BC90371A0492B5001045F0 /* mydfs.h */,
+				B0BC90351A02A47F001045F0 /* mybruteforce.h */,
+				B0BC90331A019BF1001045F0 /* mysort.h */,
+				B0BC90341A02026F001045F0 /* mysearch.h */,
+				B0ABA57219FC9E9800BB596D /* mystring.h */,
+				B0BC90311A00612C001045F0 /* mystack.h */,
+				B0BC90321A0084BD001045F0 /* mytree.h */,
 				B0ABA54E19F821AF00BB596D /* Leetcode.1 */,
 			);
 			path = Leetcode;
@@ -227,6 +259,7 @@
 				B0ABA55419F821AF00BB596D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
